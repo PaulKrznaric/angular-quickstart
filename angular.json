@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "efbcbf1b-6080-4a55-8eb4-bac1280bdf23"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -35,7 +38,8 @@
             "buildOptimizer": false,
             "sourceMap": true,
             "optimization": false,
-            "namedChunks": true
+            "namedChunks": true,
+            "aot": false
           },
           "configurations": {
             "production": {
